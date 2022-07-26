@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="barchart/TableBarChart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bar Graph</title>
+</head>
+
+<body class="p-5">
+    <div class="container">
+        <table id="source" class="table table-striped mb-5 text-center table-active">
+            <caption>
+                Infant Rate
+            </caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Value 1</th>
+                    <th>Value 2</th>
+                    <th>Value 3</th>
+                    <th>Value 4</th>
+                    <th>Value 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Infant Fertality Rate</th>
+                    <td>20</td>
+                    <td>23</td>
+                    <td>15</td>
+                    <td>23</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <th>Infant Mortality Rate</th>
+                    <td>60</td>
+                    <td>110</td>
+                    <td>130</td>
+                    <td>80</td>
+                    <td>100</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="infantGraph">
+            <div id="target"></div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="barchart/TableBarChart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
